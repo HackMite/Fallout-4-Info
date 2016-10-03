@@ -1,0 +1,36 @@
+body{ 
+background-color: #030903;
+color: Lime;
+font-family: 'Share Tech Mono', monospace;
+font-size: 24px;
+}
+nav {
+width: 100%;	
+}
+nav ul {
+list-style: none; 
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-flow: row;
+width: 100%;
+justify-content: space-around;
+border-bottom: 2px solid Lime;
+}
+nav li {
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+text-transform: UPPERCASE;
+}
+nav li a {
+text-decoration: none;
+}
+a{ 
+color: lime;
+}
+a:hover {
+ color: black;
+ background-color: lime;  
+ padding: 0 2px;
+}
